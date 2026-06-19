@@ -1,0 +1,19 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=2.8.0",
+    "ollama>=0.6.2",
+    "openai>=2.43.0",
+    "openi>=3.0.1",
+    "pandas>=3.0.3",
+    "pillow>=12.2.0",
+    "python-dotenv>=1.2.2",
+    "tqdm>=4.68.3",
+]
+
+[tool.pyright]
+extraPaths = ["."]
